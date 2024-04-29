@@ -16,7 +16,7 @@ const AppLogo = ({ width, height, style, className, ...props }: iAppLogo) => {
       style={style}
       priority
       {...props}
-      src={"/images/logo.png"}
+      src={"/images/logo.webp"}
     />
   );
 };
