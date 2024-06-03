@@ -1,6 +1,11 @@
 import Link from "next/link";
 import AppLogo from "./AppLogo";
-import { URL_NGM_DISCOVERY, URL_NGM_EDUCATION, URL_XJS_LIBRARY } from "./url";
+import {
+  URL_CORP_BRIDGE,
+  URL_NGM_DISCOVERY,
+  URL_NGM_EDUCATION,
+  URL_XJS_LIBRARY,
+} from "./url";
 
 const PageFooter = () => {
   return (
@@ -12,6 +17,10 @@ const PageFooter = () => {
         </Link>
         <div className="flex gap-6 justify-center flex-wrap">
           {[
+            {
+              title: "CorpBridge",
+              url: URL_CORP_BRIDGE,
+            },
             {
               title: "XJS Library",
               url: URL_XJS_LIBRARY,
